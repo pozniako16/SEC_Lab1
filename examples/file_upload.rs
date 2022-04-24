@@ -7,12 +7,6 @@ use uuid::Uuid;
 
 use read_input::prelude::*;
 use Lab01::{validate_file, validate_uuid};
-//use lab01_2022_input_validation::*;
-
-// Use the hashmap as follows:
-// ```
-// let map = HASHMAP.lock().unwrap();
-// ```
 
 static END_POINT_URL: &str = "sec.upload";
 static VIDEO_FOLDER: &str = "videos";

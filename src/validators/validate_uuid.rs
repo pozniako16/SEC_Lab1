@@ -1,6 +1,6 @@
 use regex::Regex;
 
-// DO NOT READ FILE CONTENTS INSIDE THIS FUNCTION
+
 /**
     Verifies if a given uuid string is valid or not
     @param uuid: the uuid to validate
@@ -13,16 +13,9 @@ pub fn validate_uuid(uuid: &String) -> bool {
     uuid_regex.is_match(uuid)
 }
 
-// TODO : implement unit testing
 #[cfg(test)]
 mod tests {
     use crate::validate_uuid;
-
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
 
     #[test]
     fn empty_returns_false(){
