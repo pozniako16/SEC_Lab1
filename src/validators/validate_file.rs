@@ -18,7 +18,7 @@ The priority in which the optional arguments are treated is:
 If both are filled, file group will be ignored
 
 REMARK ON TESTING: you need files to be checked for the tests to work, here is how it goes:
-    - first download the src/resources folder from the following repository
+    - first download the src/resources folder from the following repository: https://github.com/pozniako16/SEC_Lab1
     - copy paste it to the src folder
     - launch the tests
  **/
